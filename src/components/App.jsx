@@ -27,7 +27,6 @@ export default function App() {
   const getData = async () => {
     try {
       if (!query) {
-        console.log(query);
         return;
       }
       setIsLoading(true);
